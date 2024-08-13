@@ -1,0 +1,11 @@
+harbor_installer_url: "https://github.com/goharbor/harbor/releases/download/v2.11.0/harbor-offline-installer-v2.11.0.tgz"
+harbor_home: "/opt/harbor"
+harbor_hostname: 172.26.2.194
+harbor_port: 80
+harbor_admin_password: "Atom@2024"
+database_password: "Atom@2024"
+
+docker_insecure_registry: /etc/docker
+
+# certbot_certificate_path: "/etc/letsencrypt/live/{{ harbor_hostname }}/fullchain.pem"
+# certbot_private_key_path: "/etc/letsencrypt/live/{{ harbor_hostname }}/privkey.pem"
