@@ -2,8 +2,8 @@ harbor_installer_url: "https://github.com/goharbor/harbor/releases/download/v2.1
 harbor_home: "/opt/harbor"
 harbor_hostname: 172.26.2.194
 harbor_port: 80
-harbor_admin_password: "Atom@2024"
-database_password: "Atom@2024"
+harbor_admin_password: "admin123"
+database_password: "admin123"
 
 docker_insecure_registry: /etc/docker
 
